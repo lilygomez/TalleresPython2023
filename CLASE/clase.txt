@@ -1,0 +1,163 @@
+numero int
+float decimal
+logicos (booleanos) bool
+texto: str
+
+para poner el nombre a una variable:
+no tener espacio y si lo tiene va con un guionbajo
+no empezar por simbolo o numero
+cuando se asigna un valor a la variable no hay necesidad de declarar la variable
+nota: para comentar """ al incio """ al final, si son varias líneas 
+# si es una solo línea
+nota: si es un string se concatena con el +
+para operaciones:
+multiplicar es: **
+para dividir : / pero el resultado es tipo float y si quiero entero //
+%d para entero
+%f para decimal
+en python se usa es el and y el or
+todo dato que ingresa como un imput es tipo string
+
+lower: pone toda la letra en minusucla, 
+upper: pone toda la letra en mayuscula,
+title: la primera letra de cada palabra en mayuscula
+
+ejercicio2:
+realizar un programa donde el usuario ingrese dos numeros para dividir y  muestre en pantalla un mensaje que indique cual es el dividendo, el divisor, conciente y el residuo 
+
+
+Num = 23
+num1 =1.25
+valor = "hola"
+v1 = True
+#print(type(v1))
+#operaciones basicas
+dato1 = 4
+dato2 = 2
+division = dato1 // dato2
+#prse puede usar tambienint("el resultado de la operacion es:",potenciacion)
+"""Se puede usar tambien asi:"""
+#print("El resultado es {0}".format (division))
+"""tambien se puede llamar usando %d para entero y %F para decial ejemplo:"""
+#print("el resultado es %f" % (division))
+#todo dato que ingresa como un imput es tipo string
+#dato1 = int(input("ingrese un numero:"))
+#dato2 = int(input("ingrese un numero:"))
+#division = dato1 // dato2
+#print ("el resultado es %d" % (division))
+
+#metodos lower(), upper(),title
+texto = "hola grupo!!!"
+#print (texto.upper())
+#print (texto.title())
+#print (texto.lower())
+
+"""calcular el precio de las horas de parqueo teniendo en cuenta la hora de llegada, la hora de salida, 
+el precio por hora, precio a pagar,
+* definir variables de forma correcta
+*Mostrar en pantalla el valor a pagar"""
+
+"""precio_hora: 1000
+horaS: int(input("ingrese la hora de salida:"))
+horaIn: int(input("ingrese la hora de llegada:"))
+tiempo_total: (horaS - horaIn)* precio_hora
+print ("el total a pagar: ", tiempo_total)"""
+
+"""ejercicio2:
+realizar un programa donde el usuario ingrese dos numeros para dividir y  
+muestre en pantalla un mensaje que indique cual es el dividendo, el divisor, conciente y el residuo """
+
+#dividendo = int(input("ingrese un numero:"))
+#divisor = int(input("ingrese un numero:"))
+#cociente = dividendo // divisor
+#print ("el dividendo es: ", dividendo ,"\n" "el divisor es:", divisor,"\n" "el cociente es:", cociente ,"\n"
+       #"el residuo es: ",dividendo%divisor)
+#print(f"\tcociente {dividendo//divisor}\n\tdivisor: {divisor}\n\tdividendo: {dividendo}\n\treiduo: {dividendo%divisor}")
+
+"""CONDICIONAL IF
+nota: la condicion que se da es de tipo booleano """
+#ingresar edad del usuario, muestre si es mayor de edad.
+
+"""nombre = (input ("ingresar nombre: "))
+edad = int(input ("ingresar edad: "))
+
+if edad >= 18:
+    print(nombre, "Eres mayor de edad ")
+    
+else:
+    print(nombre, "Eres menor de edad ")"""
+    
+#elif (es el si no si , la condicion:
+#                        intruccion)
+
+num1 = (input ("ingresar numero: "))
+num2 = (input ("ingresar numero: "))
+
+if num1>num2:
+    print(num1, "es mayor")
+elif num1<num2:
+    print(num2, "es mayor")
+else:
+    print(f"{num1} y {num2} son iguales")
+     
+
+respuesta CYD
+2:  TODAS
+3: 1 V 2:F 3:V 4:V 5:V
+4: C
+5: NINGUNA  PERDIDA
+6: 1
+7: 1V 2:V 3:F 4:F 5:V
+8:GIT ADD
+9: GIT COMMING, GIT 
+
+25/MARZO
+
+#CONDICIONAL Y OPERADORES lOGICOS: AND , OR
+PEDIR A USUARIO LA EDAD Y A QUE GRUPO QUIERE PERTENECER(ADULTO O INFANTIL), SI EL USAURIO TIENEN 18 AÑOS O MAS Y ESCOGE ADULTO MUESTRE "PUEDE INGRESAR AL GRUPO",
+DE LO CONTRARIO "EXCEDE LA EDAD PARA INGRESAR AL GRUPO "SI TIENE MENOS DE 18 Y ESCOGE INFANTE MUESTRE 
+"PUEDE INGRESAR AL GRUPO", DE LO CONTRATIO "NO PUEDE INGRESAR". SI ESCOGE UNA OPCION DIFERENTE DEBE SALIR OPCION NO VALIDA
+
+
+"""
+	Crear un programa en Python que pida la edad de la persona y muestre un mensaje 
+	dependiendo de la misma. De 0 a 2 años es bebé, de 3 a 11 es niño, de 12 a 17 es
+	adolescente, de 18 a 64 es adulto y de 65 o más es anciano.
+	@author parzibyte
+"""
+
+edad_como_cadena = input("Dime tu edad: ")
+edad = int(edad_como_cadena)
+# Ahora sí comparamos
+if edad >= 0 and edad <= 2:
+    print("Bebé")
+elif edad >= 3 and edad <= 11:
+    print("Niño")
+elif edad >= 12 and edad <= 17:
+    print("Adolescente")
+elif edad >= 18 and edad <= 64:
+    print("Adulto")
+elif edad >= 65:
+    print("Anciano")
+else:
+    print("Edad inválida")
+
+
+----------------------
+# repite una instruccion hasta que la condicion sea falsa
+
+#imprimir los numeros menores o iguales que 10
+
+num = 0
+
+
+
+
+
+
+
+
+
+
+
+
